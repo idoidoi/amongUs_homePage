@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+html { font-size: 10px;}
+body { font-size: 1rem; background-color: #000; font-family: 'PT Sans', sans-serif; box-sizing: border-box;}
+
+header { max-width: 151.2rem;  margin: 0 auto; background-color: #000;}
+header .wreper {display: flex; justify-content: space-between; align-items: center; max-width: 116.4rem; width: 100%; height: 10.68rem; margin: 0 auto;}
+nav { width: 100%; max-width: 40.952rem;}
+.menu ul { display: flex; justify-content: space-between;  align-items: center;}
+.menu ul li a { display: inline-block; color: #fff; font-weight: 700; font-size: 1.8rem; }
+.menu ul li:nth-child(1) {  padding-right: 2rem; background: url(../images/btn_down_arrow.png) no-repeat right top 1.0rem / 1.4rem auto}
+.menu ul li:nth-child(3) {  padding-right: 2rem; background: url(../images/btn_down_arrow.png) no-repeat right top 1.0rem / 1.4rem auto}
+.sns { padding: 1.2rem 2.2rem 1.2rem 0; }
+.sns a { display: inline-block; width: 3rem; height: 3rem; border-radius: 50%; background-color: #fff !important;}
+.sns a ~ a { margin-left: .9rem;}
+.sns a:nth-child(1) { background: url(../images/btn_go1.png) no-repeat center / 2.3rem auto;}
+.sns a:nth-child(2) { background: url(../images/btn_go2.png) no-repeat center / 2.3rem auto;}
+.sns a:nth-child(3) { background: url(../images/btn_go3.png) no-repeat center top 0.5rem / 2.3rem auto;} 
+
+.news {line-height: 5.9rem; text-align: center; max-width: 151.2rem; background: #C61111; margin: 0 auto; font-weight: 700; color: #fff;}
+.news h3 { font-size: 1.6rem; max-width: 116.4rem; padding: 0 2.2rem; margin: 0 auto; box-sizing: border-box; }
+.news h3 span { font-size: 1.4rem; padding-left: 1.28rem; }
+.news h3 em { font-size: 1.4rem; font-weight: 400; padding: 0 8.1rem 0 1.7rem;}
