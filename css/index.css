@@ -16,7 +16,29 @@ nav { width: 100%; max-width: 40.952rem;}
 .sns a:nth-child(2) { background: url(../images/btn_go2.png) no-repeat center / 2.3rem auto;}
 .sns a:nth-child(3) { background: url(../images/btn_go3.png) no-repeat center top 0.5rem / 2.3rem auto;} 
 
-.news {line-height: 5.9rem; text-align: center; max-width: 151.2rem; background: #C61111; margin: 0 auto; font-weight: 700; color: #fff;}
+main { max-width: 151.2rem; margin: 0 auto;}
+
+.news { position: relative; z-index: 10;  line-height: 5.9rem; text-align: center; width: 100%; background: #C61111; margin: 0 auto; font-weight: 700; color: #fff;}
 .news h3 { font-size: 1.6rem; max-width: 116.4rem; padding: 0 2.2rem; margin: 0 auto; box-sizing: border-box; }
 .news h3 span { font-size: 1.4rem; padding-left: 1.28rem; }
 .news h3 em { font-size: 1.4rem; font-weight: 400; padding: 0 8.1rem 0 1.7rem;}
+
+.main_banner { position: relative; height: 78.6rem; margin-top: -5.9rem; }
+.main_banner > img { width: 100%; height: 100%; border-radius: 0 0 100% 100% / 0 0 20% 20%; object-fit: cover;  }
+.main_banner div { position: absolute; width: 37.6%; left: 50%; top:50%; transform: translate(-50%,-50%);  text-align: center;} 
+.main_banner div img {max-width: 100%;}
+.main_banner div button { display:inline-block; margin-top: 4.4rem;  padding: 0 4rem; font-size: 2rem; width: 23.7rem; height: 5.4rem; line-height: 5.4rem; border-radius: 5.4rem; color: #fff; background-color: #2D75B6;} 
+
+.main_explanation {position: relative; width: 100%; padding: 8rem 38.2rem; box-sizing: border-box;}
+.main_explanation img { position: absolute; }
+.main_explanation img:nth-of-type(1) { height: 10.6rem; left: 10rem; top: 5rem;}
+.main_explanation img:nth-of-type(2) { height: 14.5rem; right: 10.3rem; bottom: 0;}
+.main_explanation img:nth-of-type(3) { height: 6.2rem; top: 25.7rem; left: 19.3rem;}
+.main_explanation img:nth-of-type(4) { height: 3.3rem;  top: 30.6rem; left: 26.5rem;}
+.main_explanation img:nth-of-type(5) { height: 3.3rem; top: 11rem; right: 26.8rem;}
+.main_explanation img:nth-of-type(6) { height: 3.3rem; top: 20rem; right: 20rem;}
+.main_explanation div { text-align: center; color: #fff; }
+.main_explanation div h3 { font-size: 4.5rem; font-weight: 700; line-height: 5.4rem; padding: 0 4rem 3.2rem; }
+.main_explanation div p { font-size: 2.7rem; font-weight: 400; line-height: 4.05rem;}
+
+
