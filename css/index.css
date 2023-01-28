@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 html { font-size: 10px;}
-body { font-size: 1rem; background-color: #000; font-family: 'PT Sans', sans-serif; box-sizing: border-box;}
+body { font-size: 1rem; max-width: 151.2rem; margin: 0 auto; background-color: #000; font-family: 'PT Sans', sans-serif; box-sizing: border-box;}
 
-header { max-width: 151.2rem;  margin: 0 auto; background-color: #000;}
+header { background-color: #000;}
 header .wreper {display: flex; justify-content: space-between; align-items: center; max-width: 116.4rem; width: 100%; height: 10.68rem; margin: 0 auto;}
 nav { width: 100%; max-width: 40.952rem;}
 .menu ul { display: flex; justify-content: space-between;  align-items: center;}
@@ -16,7 +16,7 @@ nav { width: 100%; max-width: 40.952rem;}
 .sns a:nth-child(2) { background: url(../images/btn_go2.png) no-repeat center / 2.3rem auto;}
 .sns a:nth-child(3) { background: url(../images/btn_go3.png) no-repeat center top 0.5rem / 2.3rem auto;} 
 
-main { max-width: 151.2rem; margin: 0 auto;}
+main { }
 
 .news { position: relative; z-index: 10;  line-height: 5.9rem; text-align: center; width: 100%; background: #C61111; margin: 0 auto; font-weight: 700; color: #fff;}
 .news h3 { font-size: 1.6rem; max-width: 116.4rem; padding: 0 2.2rem; margin: 0 auto; box-sizing: border-box; }
@@ -27,7 +27,9 @@ main { max-width: 151.2rem; margin: 0 auto;}
 .main_banner > img { width: 100%; height: 100%; border-radius: 0 0 100% 100% / 0 0 20% 20%; object-fit: cover;  }
 .main_banner div { position: absolute; width: 37.6%; left: 50%; top:50%; transform: translate(-50%,-50%);  text-align: center;} 
 .main_banner div img {max-width: 100%;}
-.main_banner div button { display:inline-block; margin-top: 4.4rem;  padding: 0 4rem; font-size: 2rem; width: 23.7rem; height: 5.4rem; line-height: 5.4rem; border-radius: 5.4rem; color: #fff; background-color: #2D75B6;} 
+
+
+.btn { display:inline-block; margin-top: 4.4rem;  padding: 0 4rem; font-size: 2rem;  height: 5.4rem; line-height: 5.4rem; border-radius: 5.4rem; color: #fff; background-color: #2D75B6;} 
 
 .main_explanation {position: relative; padding: 8rem 0; box-sizing: border-box;}
 .main_explanation img { position: absolute; }
@@ -73,3 +75,23 @@ main { max-width: 151.2rem; margin: 0 auto;}
 .team ul li img { position: absolute; left: 0; top: 0;}
 .team ul li figcaption { font-size: 1.7rem; font-weight: 400; line-height: 2.7rem; color: #fff; }
 .team2 .impostor { margin-top: 7.9rem;}
+
+.official { padding: 7.88rem 0 19.5rem;}
+.offi_wrap { height: 44.61rem;  background: url(../images/bg_visual4.png ) no-repeat 0 0 / 100% auto; }
+.official .offi_wrap .content { padding: 13.6rem 0 0 21.8rem; color: #fff; }
+.official .offi_wrap .content h2 { font-size: 4.1rem; font-weight: 700;  }
+.official .offi_wrap .content p { font-size: 2.2rem; font-weight: 400;  padding: 2.21rem 0 3.3rem; }
+.official .offi_wrap .content .btn { margin: 0; }
+
+
+.footer_inner {width: 100%; height: 25.2rem; font-size: 3rem; line-height: 3.6rem; font-weight: 400;} 
+.footer_inner .question {float: left; width: 57.8%; height: 100%; padding: 4.4rem 0 0 19.8rem; background: #2D75B6
+  url(../images/bg_visual5.png) no-repeat right 6.2rem top 2.7rem / 15.5rem auto ; color: #fff; box-sizing: border-box;} 
+.footer_inner .question .content { width: 39.8rem;}
+.footer_inner .question .content h3 { padding-bottom: 2.8rem;}
+.footer_inner .question .content .btn { margin: 0; color:#2D75B6; background-color: #fff;}
+.footer_inner .know {float: left; width: 42.2%; padding: 4.4rem 0 0 7.8rem; box-sizing: border-box; } 
+.footer_inner .know h3 { padding-bottom: 4.5rem; } 
+.footer_inner .know .email { max-width: 48.5rem; height: 5rem;}
+.footer_inner .know input[type=email] { width: 86.5%; height: 100%; border-radius: 2.2rem 0 0 2.2rem; border: 1px solid #D3C7B5; border-right: none; margin-right: -1.16rem; box-sizing: border-box;}
+.footer_inner .know input[type=submit] { width: 13.5%; height: 100%; background: url(../images/btn_right_arrow.png) no-repeat center center / 1.3rem auto #2D75B6; border: 1px solid #D3C7B5; border-radius: 0 2.2rem 2.2rem 0; border-left: none; }
